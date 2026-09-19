@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="fixed-menu">
+            <h1 class="logo">HR</h1>
+            <div class="nav-links">
+                <a href="#main" class="nav-link">Главная</a>
+                <a href="#about" class="nav-link">Обо мне</a>
+                <a href="#skills" class="nav-link">Навыки</a>
+                <a href="#works" class="nav-link">Работы</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </div>
+            <div class="mobile-button">
+                <img src="imeges/mobile_menu.png" alt="" class="mobile-btn">
+                <img src="imeges/close_menu.png" alt="" class="mobile-btn btn-hide">
+            </div>
+            <div class="mobile-menu hide">
+                <div class="mobile-nav">
+                    <div class="mobile-nav-links">
+                        <a href="#main" class="nav-link">Главная</a>
+                        <a href="#about" class="nav-link">Обо мне</a>
+                        <a href="#skills" class="nav-link">Навыки</a>
+                        <a href="#works" class="nav-link">Работы</a>
+                        <a href="#contacts" class="nav-link">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="main">
+        <div class="main_block">
+            <img src="imeges/maskot.png" width="300">
+            <div class="main-content">
+                <h1 class="main-title">Хакер Рекс</h1>
+                <p class="main_subtitle">Личная страница разработчика</p>
+                <img src="imeges/close_btn.jpg" alt="">
+            </div>
+            <div class="button">
+                <a href="#">Подробнее</a>
+            </div>
+        </div>
+        <div class="mooving-bug"></div>
+    </section>
+    <section id="about">
+        <h1 class="title">Обо мне</h1>
+        <div class="about_block">
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-title">Меня зовут Эржан. Я занимаюсь разработкой современных сайтов и приложений <br> <br>Мне нравиться создавать интересные современные проэкты </p>
+                    <div class="button"><a href="">
+                        Мои навыки
+                    </a></div>
+                </div>
+            </div>
+            <div class="about-card">
+                <img src="imeges/photo.png" width="300">
+            </div>
+        </div>
+        <div class="cloud"></div>
+    </section>
+    <section id="skills">
+        <h1 class="title">
+            навыки
+        </h1>
+        <div class="skills_block">
+            <div class="skills-card">
+                <p>Этот сайт я сделал в рамках обучения школы id online school</p>
+                <div class="languages">
+                    <img src="imeges/html.png" alt="">
+                    <img src="imeges/css.png" alt="">
+                    <img src="imeges/js.png" alt="">
+                </div>
+                <div class="button">
+                    <a href="">
+                      Смотреть работы
+                    </a>
+                </div>
+                <img src="imeges/moving-balloon.png" alt="" class="mooving-ballon">
+            </div>
+        </div>
+    </section>
+    <section id="works">
+        <h1 class="title">работы</h1>
+        <div class="works_block">
+            <img src="imeges/Снимок экрана 2026-09-10 171233.png" height="300px" width="600px">
+            <img src="imeges/Снимок экрана 2026-09-10 172358.png" width="600px" height="300px">
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="contacts_block"></div>
+    </section>
+    <footer>
+        <div class="footer-info">
+            <p>Хакер Эржан</p>
+            <p>личные сайты веб разработчика</p>
+        </div>
+        <div class="footer-year">
+            <p>2026</p>
+        </div>
+        <div class="footer-links">
+            <a href=""><img src="imeges/telegram.svg" alt="" class="contact" width="30"></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
